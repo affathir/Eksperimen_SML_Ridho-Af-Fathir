@@ -25,7 +25,7 @@ jobs:
 
     - name: Run preprocessing automation
       run: |
-        python preprocessing/automate_Ridho-Af-Fathir.py
+        python preprocessing/automate_ridho.py
 
     - name: Commit and Push clean data and artifacts
       run: |
